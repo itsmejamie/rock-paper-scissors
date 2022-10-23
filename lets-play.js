@@ -51,7 +51,7 @@ function keepScore (playerScore, computerScore) {
 keepScore();
 
 
-//Function to play 5 rounds of rock, paper or scissors before announcing the winner at the end
+//Function to play 5 rounds of rock, paper or scissors before announcing the winner at the end//
 function game (){
     for (let i = 0; i < 5; i++) {
     playerChoice = prompt ("Rock, paper or scissors?");
