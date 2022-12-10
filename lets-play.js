@@ -2,15 +2,15 @@ playerScore = 0
 computerScore = 0
 
 // creates HTML for player and computer score and also 'Make your selection'
-const body = document.body;
+const prompts = document.getElementById('prompts');
 const div = document.createElement('div');
 const div2 = document.createElement('div2');
 const div4 = document.createElement('div4')
-body.append(div4)
-body.append(div)
-body.append(div2)
+prompts.append(div4)
+prompts.append(div)
+prompts.append(div2)
 
-div4.innerHTML = '<h1>Make your selection</h1>'
+div4.innerHTML = 'Make your selection'
 
 //Updates HTML with Player and Computer Score
 function updateScore (){
@@ -96,7 +96,7 @@ function reset () {
     playerScore = 0;
     computerScore = 0;
     updateScore()
-    div4.innerHTML = '<h1>Make your selection</h1>'
+    div4.innerHTML = 'Make your selection'
 
 }
 
